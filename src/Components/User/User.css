@@ -1,0 +1,44 @@
+.root{
+    margin: 20px;
+}
+
+.info{
+    /* display: flex; */
+    background-color: #1B6F86;
+    width: 30%;
+    margin: 0 20px;
+    padding: 10px;
+    opacity: 80%;
+}
+
+.item, .itemAddress{
+    color: white;
+    margin: 10px 0;
+}
+
+
+.mainAddress, .address{
+    display: flex;
+    justify-content: end;
+}
+
+.btnDetails a:link, .btnDetails a:visited{
+    background-color: #191919;
+    text-decoration: none;
+    color: white;
+    width: 8rem;
+    padding: 14px 10px;
+    display: block;
+    text-align: center;
+    border: 2px solid #3498db;
+    outline: none;
+    color: #F3EEEC;
+    border-radius:  24px;
+    margin: 15px auto 10px auto;
+}
+
+.btnDetails a:hover{
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    transform: scale(1.03);
+    animation: pulse();
+}

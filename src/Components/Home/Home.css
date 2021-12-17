@@ -1,0 +1,18 @@
+.back{
+    background-color: #28282c;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 20%;
+    padding: 20px;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+}
+
+.back2{
+    border: white 1px solid;
+    padding: 20px;
+}
+
+p{
+    color: white;
+}

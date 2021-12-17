@@ -1,0 +1,19 @@
+.linkItem{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.625em;
+}
+
+nav{
+    background-color: #262424;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkItem:hover{
+    text-decoration: underline;
+    transition: all ease 0.5s;
+}
